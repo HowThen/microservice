@@ -7,4 +7,8 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: P@ssw0rd
-    url: jdbc:mysql://localhost:3306/db_user
+    url: jdbc:mysql://localhost:3306/db_user?useSSL=false
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
