@@ -8,7 +8,7 @@ thrift:
     port: 7911
   message:
     ip: 127.0.0.1
-    prot: 9090
+    port: 9090
 
 spring:
   redis:
