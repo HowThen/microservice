@@ -7,7 +7,15 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: P@ssw0rd
-    url: jdbc:mysql://localhost:3306/db_user?useSSL=false
+    url: jdbc:mysql://localhost:3306/db_user?useSSL=false&allowPublicKeyRetrieval=true
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 8
+      min-idle: 5
+      max-active: 10
+      query-timeout: 6000
+      transaction-query-timeout: 6000
+      remove-abandoned-timeout: 1800
 
 mybatis:
   configuration:
