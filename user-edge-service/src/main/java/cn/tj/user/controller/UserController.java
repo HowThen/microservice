@@ -1,7 +1,7 @@
 package cn.tj.user.controller;
 
 import cn.tj.thrift.user.UserInfo;
-import cn.tj.user.dto.UserDTO;
+import cn.tj.thrift.user.dto.UserDTO;
 import cn.tj.user.redis.RedisClient;
 import cn.tj.user.response.LoginResponse;
 import cn.tj.user.response.Response;
