@@ -6,7 +6,7 @@ public class Response implements Serializable {
 
     public static final Response USERNAME_PASSWORD_INVALID = new Response("1001","username or password invalid");
 
-    public static final Response MOBILE_OR_EMAIL_REQUIRED = new Response("1002","mobile or email invalid");
+    public static final Response MOBILE_OR_EMAIL_REQUIRED = new Response("1002","mobile or email is required");
 
     public static final Response SEND_VARIFYCODE_FAILD = new Response("1003","send varify code faild");
 
