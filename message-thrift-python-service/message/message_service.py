@@ -10,7 +10,7 @@ from email.mime.text import MIMEText
 from email.header import Header
 
 sender = '584973593@qq.com'
-authCode = 'upeourunhbeybfca'
+authCode = ''
 
 
 class MessageSerivceHandler:
